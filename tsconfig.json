@@ -1,17 +1,17 @@
 {
   "compilerOptions": {
     "target": "es2016",
-    "module": "commonjs",
+    "module": "umd",
     "moduleResolution": "node",
     "strict": true,
     "esModuleInterop": false,
-    "declaration": true,
+    "declaration": false,
     "sourceMap": true,
     "noEmit": false,
     "inlineSources": false,
     "outDir": "lib",
     "rootDir": "src",
-    "resolveJsonModule": true
+    "resolveJsonModule": false
   },
   "include": ["src/**/*.ts"]
 }

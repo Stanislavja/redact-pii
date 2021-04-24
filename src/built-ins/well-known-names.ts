@@ -1,4 +1,4 @@
-[
+export const _wellKnownNames = [
   "aaron",
   "abad",
   "abarca",
