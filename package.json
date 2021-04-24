@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
-    "build": "del lib && tsc --pretty",
+    "build": "webpack",
     "typecheck": "tsc --noEmit",
     "prepublishOnly": "npm run verify_all && npm run build",
     "verify_all": "npm run typecheck && npm test && npm run test_prettier && changelog-verify CHANGELOG.md",
@@ -24,7 +24,6 @@
   "author": "Christian Theilemann <christian@solvvy.com>",
   "license": "MIT",
   "dependencies": {
-    "@google-cloud/dlp": "^0.12.0",
     "lodash": "^4.17.15"
   },
   "devDependencies": {
